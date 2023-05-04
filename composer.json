@@ -1,0 +1,29 @@
+{
+  "name": "piotrpress/initer",
+  "type": "library",
+  "license": "MIT",
+  "description": "This library reads/writes flat array data from/to key=value format compatible with .ini and .env files.",
+  "homepage": "https://github.com/PiotrPress/initer",
+  "authors": [
+    {
+      "name": "Piotr Niewiadomski",
+      "homepage": "https://piotr.press"
+    }
+  ],
+  "keywords": [
+    "initer", ".env", ".ini", "config", "configuration", "config-file", "configuration-file", "env", "environment-variable", "environment-variables", "array", "array-access", "array-object"
+  ],
+  "require": {
+    "php": ">=7.4",
+    "ext-ctype": "*",
+    "piotrpress/configer": "^1.0 || ^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PiotrPress\\": "src/"
+    },
+    "classmap": [
+      "src"
+    ]
+  }
+}
